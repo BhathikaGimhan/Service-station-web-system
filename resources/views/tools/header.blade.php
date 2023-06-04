@@ -29,16 +29,12 @@
           </ul>
           <div class="quote_btn-container">
             <form class="form-inline">
-              <button class="btn   nav_search-btn" type="submit">
-                <i class="fa fa-search" aria-hidden="true"></i>
-              </button>
+              <a href="{{ url('/home') }}">
+                <span>Login</span>
+                <i class="fa fa-user" aria-hidden="true"></i>
+
+              </a>
             </form>
-            <a href="">
-              <i class="fa fa-phone" aria-hidden="true"></i>
-              <span>
-                Call : +01 123455678990
-              </span>
-            </a>
           </div>
         </div>
       </nav>
