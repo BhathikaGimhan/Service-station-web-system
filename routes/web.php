@@ -33,6 +33,14 @@ Route::get('/adminPage', function (){
     return view('Admin.index');
 });
 
+Route::get('/Forms', function (){
+    return view('Admin.form');
+});
+Route::get('/Widgets', function (){
+    return view('Admin.widget');
+});
+
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
