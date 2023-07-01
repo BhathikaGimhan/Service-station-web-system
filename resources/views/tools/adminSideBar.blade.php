@@ -22,7 +22,7 @@
             </div>
             <a href="{{ url('/Widgets') }}" id="Widgets" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Widgets</a>
             <a href="{{ url('/Forms') }}" id="Forms" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Forms</a>
-            <a href="table.html" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Tables</a>
+            <a href="{{ url('/Tables') }}" id="Tables" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Tables</a>
             <a href="chart.html" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Charts</a>
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="far fa-file-alt me-2"></i>Pages</a>
@@ -43,6 +43,7 @@
         </div>
     </nav>
 </div>
+{{-- fixed the side bar error --}}
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
 $(document).ready(function() {

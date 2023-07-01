@@ -30,7 +30,13 @@
           <div class="quote_btn-container">
             <form class="form-inline">
               <a href="{{ url('/home') }}">
-                <span>Login</span>
+                <span>
+                    @guest
+                    Login
+                    @else
+                    {{ Auth::user()->name }}
+                    @endguest
+                </span>
                 <i class="fa fa-user" aria-hidden="true"></i>
 
               </a>

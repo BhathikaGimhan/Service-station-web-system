@@ -39,6 +39,10 @@ Route::get('/Forms', function (){
 Route::get('/Widgets', function (){
     return view('Admin.widget');
 });
+Route::get('/Tables', function (){
+    return view('Admin.table');
+});
+
 
 
 Auth::routes();
