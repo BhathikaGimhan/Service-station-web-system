@@ -73,3 +73,4 @@ Route::post('/check_date_time/{formData}', [HomeController::class, 'DateTime'])-
 Route::post('/add-date', [HomeController::class, 'addDate'])->name('addDate');
 Route::get('/fech-date/{id}', [HomeController::class, 'getBooking'])->name('getBooking');
 Route::get('/delete-date/{id}', [HomeController::class, 'deleteBooking'])->name('deleteBooking');
+Route::get('/user-date-fech', [HomeController::class, 'userDateFech'])->name('userDateFech');

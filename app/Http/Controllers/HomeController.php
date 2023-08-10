@@ -167,4 +167,8 @@ class HomeController extends Controller
         $date = booking::where('id', $id)->delete();
         return response()->json(['data' =>$date]);
     }
+    public function userDateFech(){
+        $date = booking::all();
+        return response()->json(['data' =>$date]);
+    }
 }

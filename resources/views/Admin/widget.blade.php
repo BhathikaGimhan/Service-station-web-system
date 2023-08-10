@@ -30,6 +30,30 @@
 
             <!-- Widget Start -->
             <div class="container-fluid pt-4 px-4">
+                @if (Auth::user()->role == 'Admin')
+                <div class="row g-4">
+                    <div class="col-sm-12 col-md-12 col-xl-12">
+                        <div class="h-100 bg-secondary rounded p-4">
+                            <div class="d-flex align-items-center justify-content-between mb-4">
+                                <h6 class="mb-0">Admin: Users Bokking</h6>
+                                <a id="Checking" style="color: #EB1616"></a>
+                            </div>
+                            <table class="table table-hover table-inverse table-responsive">
+                                <thead class="thead-inverse">
+                                    <tr>
+                                        <th>All Users Booking Date & Time</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="tbody">
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @endif
+            <div class="container-fluid pt-4 px-4">
                 <div class="row g-4">
                     <div class="col-sm-12 col-md-6 col-xl-6">
                         <div class="h-100 bg-secondary rounded p-4">
@@ -92,6 +116,7 @@
 
             // });
             fech();
+            fullFech();
             $('#AddBTN').prop('disabled', true);
 
             $('#DateTime').on('change', function() {
@@ -149,6 +174,7 @@
                         $('#Checking').text('success');
                         $('#AddBTN').prop('disabled', true);
                         fech();
+                        fullFech();
                         setTimeout(function() {
                             $('#Checking').text('');
                         }, 2000);
@@ -166,11 +192,13 @@
                     success: function(response) {
                         $('.dates').html("");
                         $.each(response.data, function(key, item) {
+                            var dateTimeParts = item.work_time.split('T'); // Split into date and time parts
+                            var formattedDateTime = dateTimeParts[0] + ', ' + dateTimeParts[1];
                             $('.dates').append(
                                 '<div class="d-flex align-items-center border-bottom py-2" id="' + item.id + '">\
                                     <div class="w-100 ms-3">\
                                         <div class="d-flex w-100 align-items-center justify-content-between">\
-                                            <span>' + item.work_time + '</span>\
+                                            <span>' + formattedDateTime + '</span>\
                                             <button class="btn btn-sm text-primary delete"><i class="fa fa-times"></i></button>\
                                         </div>\
                                     </div>\
@@ -190,9 +218,29 @@
                     url: "/delete-date/" + id,
                     success: function(response) {
                         fech();
+                        fullFech();
                     }
                 });
             });
+
+            function fullFech() {
+                $.ajax({
+                    type: "get",
+                    url: "/user-date-fech",
+                    success: function(response) {
+                        $('.tbody').html("");
+                        $.each(response.data, function(key, item) {
+                            var dateTimeParts = item.work_time.split('T'); // Split into date and time parts
+                            var formattedDateTime = dateTimeParts[0] + ', ' + dateTimeParts[1]; // Format as desired
+                            $('.tbody').append(
+                                '<tr>\
+                                    <td>' + formattedDateTime + '</td>\
+                                </tr>'
+                            );
+                        });
+                    }
+                });
+            }
 
         });
     </script>
