@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -40,9 +41,18 @@ Route::get('/Widgets', function (){
     return view('Admin.widget');
 });
 Route::get('/Admin', function (){
-    return view('Admin.table');
+    return view('Admin.admin');
 });
 
+Route::middleware('role:admin')->get('/admin', function () {
+    // Admin-only route logic
+});
+
+Route::middleware('role:user')->get('/user', function () {
+    // User-only route logic
+});
+
+// ...
 
 
 Auth::routes();
@@ -50,3 +60,12 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/redirect', [HomeController::class, 'index'])->name('home');
+
+Route::get('/fetch', [HomeController::class, 'fetch'])->name('fetch');
+Route::post('/addVehicle', [HomeController::class, 'addVehicle'])->name('addVehicle');
+Route::get('/vehicle-view/{id}', [HomeController::class, 'vehicleView'])->name('vehicleView');
+Route::get('/servies/{number}', [HomeController::class, 'servies'])->name('servies');
+Route::post('/saveHistory/{id}', [HomeController::class, 'saveHistory'])->name('saveHistory');
+Route::get('/before/{Userid}', [HomeController::class, 'before'])->name('before');
+Route::get('/list/{Userid}', [HomeController::class, 'list'])->name('list');
+Route::get('/get-vehicle-details/{id}', [HomeController::class, 'getVehicleDetails'])->name('getVehicleDetails');

@@ -607,7 +607,6 @@
   @include('tools.footer')
   <!-- footer section -->
 
-
 </body>
 
 </html>
