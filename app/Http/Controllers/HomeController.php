@@ -8,6 +8,7 @@ use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use App\Models\vehicle;
 use App\Models\history;
+use App\Models\booking;
 
 class HomeController extends Controller
 {
@@ -143,5 +144,27 @@ class HomeController extends Controller
     public function getVehicleDetails($id){
         $service = history::where('vehicle_id', $id)->get();
         return response()->json(['data' =>$service]);
+    }
+
+    public function DateTime(Request $re, $id){
+        $date = booking::where('work_time', $id)->get()->first();
+        return response()->json(['data' =>$date]);
+    }
+    public function addDate(Request $request){
+        $date = new booking;
+        $date -> availability = $request->input('availability');
+        $date -> booked = $request->input('userID');
+        $date -> work_time = $request->input('DateTime');
+        $date->save();
+        $status = "success";
+        return response()->json(['data'=>$status]);
+    }
+    public function getBooking($id){
+        $date = booking::where('booked', $id)->get();
+        return response()->json(['data' =>$date]);
+    }
+    public function deleteBooking($id){
+        $date = booking::where('id', $id)->delete();
+        return response()->json(['data' =>$date]);
     }
 }

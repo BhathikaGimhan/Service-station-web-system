@@ -37,7 +37,7 @@ Route::get('/adminPage', function (){
 Route::get('/Forms', function (){
     return view('Admin.form');
 });
-Route::get('/Widgets', function (){
+Route::get('/Booking', function (){
     return view('Admin.widget');
 });
 Route::get('/Admin', function (){
@@ -69,3 +69,7 @@ Route::post('/saveHistory/{id}', [HomeController::class, 'saveHistory'])->name('
 Route::get('/before/{Userid}', [HomeController::class, 'before'])->name('before');
 Route::get('/list/{Userid}', [HomeController::class, 'list'])->name('list');
 Route::get('/get-vehicle-details/{id}', [HomeController::class, 'getVehicleDetails'])->name('getVehicleDetails');
+Route::post('/check_date_time/{formData}', [HomeController::class, 'DateTime'])->name('DateTime');
+Route::post('/add-date', [HomeController::class, 'addDate'])->name('addDate');
+Route::get('/fech-date/{id}', [HomeController::class, 'getBooking'])->name('getBooking');
+Route::get('/delete-date/{id}', [HomeController::class, 'deleteBooking'])->name('deleteBooking');
