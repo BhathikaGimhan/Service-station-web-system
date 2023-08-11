@@ -36,12 +36,13 @@
                         <div class="h-100 bg-secondary rounded p-4">
                             <div class="d-flex align-items-center justify-content-between mb-4">
                                 <h6 class="mb-0">Admin: Users Bokking</h6>
-                                <a id="Checking" style="color: #EB1616"></a>
+                                <!-- <a id="Checking" style="color: #EB1616"></a> -->
                             </div>
                             <table class="table table-hover table-inverse table-responsive">
                                 <thead class="thead-inverse">
                                     <tr>
                                         <th>All Users Booking Date & Time</th>
+                                        <th>User's Email</th>
                                     </tr>
                                 </thead>
                                 <tbody class="tbody">
@@ -66,7 +67,7 @@
                                 <div class="d-flex mb-2">
                                     <input class="form-control bg-transparent" type="datetime-local" id="DateTime" placeholder="Enter task">
                                     <input type="hidden" id="userID" value="{{ Auth::user()->id }}">
-                                    <input type="hidden" id="availability" value="No">
+                                    <input type="hidden" id="availability" value="{{ Auth::user()->email }}">
                                     <button type="button" id="AddBTN" class="btn btn-primary ms-2 addBTN">Add</button>
                                 </div>
                             </form>
@@ -135,7 +136,7 @@
                     success: function(response) {
                         var res = response.data;
                         $('#Checking').text('Wait a moment to check if your date is available');
-                        // console.log(res);
+                        // console.log(res);frequently-asked-question
                         if (res == null) {
                             setTimeout(function() {
                                 $('#Checking').text('Your date and time are available');
@@ -235,6 +236,7 @@
                             $('.tbody').append(
                                 '<tr>\
                                     <td>' + formattedDateTime + '</td>\
+                                    <td>' + item.availability + '</td>\
                                 </tr>'
                             );
                         });

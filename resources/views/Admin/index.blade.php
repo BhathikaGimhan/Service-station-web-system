@@ -37,7 +37,7 @@
                             <i class="fa fa-chart-area fa-3x text-primary"></i>
                             <div class="ms-3">
                                 <p class="mb-2">Last Service time(Km)</p>
-                                <h6 class="mb-0" id="before">$1234</h6>
+                                <h6 class="mb-0" id="before"></h6>
                             </div>
                         </div>
                     </div>
@@ -46,7 +46,7 @@
                             <i class="fa fa-chart-line fa-3x text-primary"></i>
                             <div class="ms-3">
                                 <p class="mb-2">Next Service time (Km)</p>
-                                <h6 class="mb-0" id="next">$1234</h6>
+                                <h6 class="mb-0" id="next"></h6>
                             </div>
                         </div>
                     </div>
