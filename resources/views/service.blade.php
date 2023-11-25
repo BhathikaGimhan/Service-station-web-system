@@ -24,7 +24,7 @@
     </div>
     <div class="container ">
       <div class="row">
-        <div class="col-md-6 col-lg-4">
+      <div class="col-md-6 col-lg-4">
           <div class="box ">
             <div class="img-box">
               <img src="images/s1.png" alt="">
@@ -34,13 +34,13 @@
                 General Maintenance
               </h4>
               <p>
-                Generators on the Internet tend to repeat predefined chunks as necessary
+              Motora provides a wide range of general maintenance services, emphasizing quality workmanship, attention to detail, and timely service. Trust us for dependable and efficient vehicle maintenance, ensuring your satisfaction and a worry-free driving experience.
               </p>
-              <a href="">
+              <!-- <a href="">
                 Read More
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
@@ -54,13 +54,13 @@
                 Repair and Replacement
               </h4>
               <p>
-                Generators on the Internet tend to repeat predefined chunks as necessary
+              Motora is your go-to destination for top-notch repair and replacement services. Our skilled technicians use cutting-edge technology and genuine parts to efficiently address a variety of automotive issues, prioritizing your safety and satisfaction.
               </p>
-              <a href="">
+              <!-- <a href="">
                 Read More
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
@@ -74,12 +74,12 @@
                 Tire Repair and Replacement
               </h4>
               <p>
-                Generators on the Internet tend to repeat predefined chunks as necessary
+              Specializing in expert tire care, Motora offers efficient and reliable solutions for puncture repairs or full replacements. Trust us for precision in tire maintenance, ensuring optimal traction, handling, and fuel efficiency.
               </p>
-              <a href="">
+              <!-- <a href="">
                 Read More
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
@@ -90,16 +90,16 @@
             </div>
             <div class="detail-box">
               <h4>
-                Wheel Alignment
+              Fuel System Repair:
               </h4>
               <p>
-                Generators on the Internet tend to repeat predefined chunks as necessary
+              Motora's expert technicians diagnose and resolve fuel system issues using cutting-edge technology and high-quality components. Trust us to keep your fuel system running smoothly for a trouble-free driving experience.
               </p>
-              <a href="">
+              <!-- <a href="">
                 Read More
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
@@ -110,15 +110,15 @@
             </div>
             <div class="detail-box">
               <h4>
-                Fuel System Repair
+              Engine Tune-Up
               </h4>
               <p>
-                Generators on the Internet tend to repeat predefined chunks as necessary
+              Motora's skilled technicians optimize engine components for peak efficiency, providing a comprehensive tune-up that enhances fuel efficiency, power delivery, and overall drivability.
               </p>
-              <a href="">
+              <!-- <a href="">
                 Read More
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
@@ -129,15 +129,15 @@
             </div>
             <div class="detail-box">
               <h4>
-                Tune Up
+              Full Service
               </h4>
               <p>
-                Generators on the Internet tend to repeat predefined chunks as necessary
+              Elevate your driving experience with Motora's full-service package, offering thorough interior and exterior cleaning, meticulous oil checking, fluid top-ups, and high-quality service that enhances both aesthetics and longevity.
               </p>
-              <a href="">
+              <!-- <a href="">
                 Read More
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
+              </a> -->
             </div>
           </div>
         </div>

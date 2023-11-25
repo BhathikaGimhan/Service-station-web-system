@@ -13,7 +13,7 @@
         <div class="navbar-nav w-100">
             <a href="{{ url('/home') }}" id="home" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
             @if (Auth::user()->role == 'Admin')
-            <a href="{{ url('/Admin') }}" id="Admin" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Admin</a>
+            <a href="{{ url('/AdminDashbord') }}" id="AdminDashbord" class="nav-item nav-link"><i class="fa fa-table me-2"></i>AdminDashbord</a>
             @endif
             {{-- <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2"></i>Elements</a>
@@ -24,7 +24,7 @@
                 </div>
             </div> --}}
             <a href="{{ url('/Booking') }}" id="Booking" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Booking</a>
-            {{-- <a href="{{ url('/Forms') }}" id="Forms" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Forms</a> --}}
+             <!-- <a href="{{ url('/AdminDashbord') }}" id="Forms" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Forms</a> -->
             {{-- <a href="chart.html" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Charts</a>
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="far fa-file-alt me-2"></i>Pages</a>
@@ -40,6 +40,7 @@
 
                 $urlSegments = explode('/', rtrim(request()->url(), '/'));
                 $lastWord = ucfirst(Str::slug(end($urlSegments), '-'));
+                
             @endphp
             <input type="hidden" id="url" name="{{ $lastWord }}">
         </div>
@@ -50,7 +51,7 @@
 <script>
 $(document).ready(function() {
     var name = $("#url").attr("name");
-
+    console.log(name);
     var link = $("#"+name).text();
     if(name == link){
         $('#home').removeClass('active');

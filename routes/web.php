@@ -40,7 +40,7 @@ Route::get('/Forms', function (){
 Route::get('/Booking', function (){
     return view('Admin.widget');
 });
-Route::get('/Admin', function (){
+Route::get('/AdminDashbord', function (){
     return view('Admin.admin');
 });
 

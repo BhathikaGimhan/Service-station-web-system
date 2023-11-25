@@ -24,70 +24,12 @@
                     And Maintenance
                   </h1>
                   <p>
-                    Anything embarrassing hidden in the middle of text. All the Lorem Ipsuanything embarrassing hidden in the middle of text. All the Lorem Ipsumm </p>
+                  Motora provides a wide range of general maintenance services, emphasizing quality workmanship, attention to detail, and timely service. Trust us for dependable and efficient vehicle maintenance, ensuring your satisfaction and a worry-free driving experience.</p>
                   <div class="btn-box">
-                    <a href="" class="btn-1">
+                    <!-- <a href="" class="btn-1">
                       Read More
-                    </a>
-                    <a href="" class="btn-2">
-                      Contact Us
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-7">
-                <div class="img-box">
-                  <img src="images/slider-img.png" alt="">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="container ">
-            <div class="row">
-              <div class="col-md-6 col-lg-5">
-                <div class="detail-box">
-                  <h1>
-                    Car Repair <br>
-                    And Maintenance
-                  </h1>
-                  <p>
-                    Anything embarrassing hidden in the middle of text. All the Lorem Ipsuanything embarrassing hidden in the middle of text. All the Lorem Ipsumm </p>
-                  <div class="btn-box">
-                    <a href="" class="btn-1">
-                      Read More
-                    </a>
-                    <a href="" class="btn-2">
-                      Contact Us
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-7">
-                <div class="img-box">
-                  <img src="images/slider-img.png" alt="">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="container ">
-            <div class="row">
-              <div class="col-md-6 col-lg-5">
-                <div class="detail-box">
-                  <h1>
-                    Car Repair <br>
-                    And Maintenance
-                  </h1>
-                  <p>
-                    Anything embarrassing hidden in the middle of text. All the Lorem Ipsuanything embarrassing hidden in the middle of text. All the Lorem Ipsumm </p>
-                  <div class="btn-box">
-                    <a href="" class="btn-1">
-                      Read More
-                    </a>
-                    <a href="" class="btn-2">
+                    </a> -->
+                    <a href="{{url('/contact')}}" class="btn-2">
                       Contact Us
                     </a>
                   </div>
@@ -104,8 +46,6 @@
       </div>
       <ol class="carousel-indicators">
         <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
-        <li data-target="#customCarousel1" data-slide-to="1"></li>
-        <li data-target="#customCarousel1" data-slide-to="2"></li>
       </ol>
     </div>
   </section>
@@ -133,13 +73,13 @@
                 General Maintenance
               </h4>
               <p>
-                Generators on the Internet tend to repeat predefined chunks as necessary
+              Motora provides a wide range of general maintenance services, emphasizing quality workmanship, attention to detail, and timely service. Trust us for dependable and efficient vehicle maintenance, ensuring your satisfaction and a worry-free driving experience.
               </p>
-              <a href="">
+              <!-- <a href="">
                 Read More
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
@@ -153,13 +93,13 @@
                 Repair and Replacement
               </h4>
               <p>
-                Generators on the Internet tend to repeat predefined chunks as necessary
+              Motora is your go-to destination for top-notch repair and replacement services. Our skilled technicians use cutting-edge technology and genuine parts to efficiently address a variety of automotive issues, prioritizing your safety and satisfaction.
               </p>
-              <a href="">
+              <!-- <a href="">
                 Read More
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
 
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
@@ -173,72 +113,22 @@
                 Tire Repair and Replacement
               </h4>
               <p>
-                Generators on the Internet tend to repeat predefined chunks as necessary
+              Specializing in expert tire care, Motora offers efficient and reliable solutions for puncture repairs or full replacements. Trust us for precision in tire maintenance, ensuring optimal traction, handling, and fuel efficiency.
               </p>
-              <a href="">
+              <!-- <a href="">
                 Read More
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/s4.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h4>
-                Wheel Alignment
-              </h4>
-              <p>
-                Generators on the Internet tend to repeat predefined chunks as necessary
-              </p>
-              <a href="">
-                Read More
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/s5.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h4>
-                Fuel System Repair
-              </h4>
-              <p>
-                Generators on the Internet tend to repeat predefined chunks as necessary
-              </p>
-              <a href="">
-                Read More
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/s6.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h4>
-                Tune Up
-              </h4>
-              <p>
-                Generators on the Internet tend to repeat predefined chunks as necessary
-              </p>
-              <a href="">
-                Read More
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
+        <div class="btn-box">
+          <!-- <a href="" class="btn-1">
+            Read More
+          </a> -->
+          <a href="{{url('/services')}}" style="position:absolute; bottom:0; right:200px;" class="btn-2">
+            See More..
+          </a>
         </div>
       </div>
     </div>
@@ -264,8 +154,8 @@
               </h2>
             </div>
             <p>
-              Words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks </p>
-            <a href="">
+            At Motora, we take pride in being your trusted partner in automotive care. With a commitment to excellence, our team of highly skilled technicians brings a wealth of expertise to every service we provide. From routine maintenance to complex repairs, we approach each task with precision and dedication to ensure your vehicle performs at its best. Our transparent communication, fair pricing, and use of top-quality materials set us apart in the industry. At Motora, we don't just fix cars; we build lasting relationships with our customers, prioritizing their satisfaction and the longevity of their vehicles. </p>
+            <a href="{{ url('/about') }}">
               Read More
             </a>
           </div>
@@ -298,12 +188,12 @@
                 Best Workers
               </h4>
               <p>
-                Generators on the Internet tend to repeat predefined chunks as necessary
+              Motora boasts highly skilled technicians dedicated to precision and excellence in every service, handling the latest automotive technologies.
               </p>
-              <a href="">
+              <!-- <a href="">
                 Read More
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
@@ -317,12 +207,12 @@
                 Best Materials
               </h4>
               <p>
-                Generators on the Internet tend to repeat predefined chunks as necessary
+              We use top-quality components and genuine parts, prioritizing durability, performance, and reliability to keep your vehicle running smoothly.
               </p>
-              <a href="">
+              <!-- <a href="">
                 Read More
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
@@ -336,12 +226,12 @@
                 Best Service
               </h4>
               <p>
-                Generators on the Internet tend to repeat predefined chunks as necessary
+              Our commitment to excellence is reflected in prompt and courteous customer service, transparent communication, and efficient vehicle maintenance, ensuring your satisfaction
               </p>
-              <a href="">
+              <!-- <a href="">
                 Read More
                 <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
+              </a> -->
             </div>
           </div>
         </div>
@@ -378,7 +268,7 @@
                       <div class="client_info">
                         <div class="client_name">
                           <h5>
-                            Morojink
+                          K.M Perera
                           </h5>
                           <h6>
                             Customer
@@ -387,13 +277,7 @@
                         <i class="fa fa-quote-left" aria-hidden="true"></i>
                       </div>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum
-                        dolore eu fugia
+                      Commends Motora's excellent service, courteous staff, and outstanding workmanship.
                       </p>
                     </div>
                   </div>
@@ -407,13 +291,13 @@
                 <div class="col-md-10 mx-auto">
                   <div class="box">
                     <div class="img-box">
-                      <img src="images/client.jpg" alt="">
+                      <img src="images/client1.jpg" alt="">
                     </div>
                     <div class="detail-box">
                       <div class="client_info">
                         <div class="client_name">
                           <h5>
-                            Morojink
+                          Ravindu Jayasekara
                           </h5>
                           <h6>
                             Customer
@@ -422,13 +306,7 @@
                         <i class="fa fa-quote-left" aria-hidden="true"></i>
                       </div>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum
-                        dolore eu fugia
+                       Appreciates Motora's professionalism, expertise, transparency, and commitment to customer satisfaction.
                       </p>
                     </div>
                   </div>
@@ -442,13 +320,13 @@
                 <div class="col-md-10 mx-auto">
                   <div class="box">
                     <div class="img-box">
-                      <img src="images/client.jpg" alt="">
+                      <img src="images/client2.jpg" alt="">
                     </div>
                     <div class="detail-box">
                       <div class="client_info">
                         <div class="client_name">
                           <h5>
-                            Morojink
+                          Dasun Fernando
                           </h5>
                           <h6>
                             Customer
@@ -457,13 +335,7 @@
                         <i class="fa fa-quote-left" aria-hidden="true"></i>
                       </div>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum
-                        dolore eu fugia
+                      Highlights Motora's expertise, attention to detail, and proactive approach in addressing automotive needs.
                       </p>
                     </div>
                   </div>

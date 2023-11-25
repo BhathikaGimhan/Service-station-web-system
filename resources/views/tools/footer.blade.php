@@ -2,7 +2,7 @@
     <div class="container">
       <p>
         &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Free Html Templates</a>
+        <a href="https://html.design/">MOTORA</a>
       </p>
     </div>
   </footer>

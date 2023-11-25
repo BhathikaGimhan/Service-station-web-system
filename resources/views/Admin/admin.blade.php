@@ -196,7 +196,7 @@
         $.ajax({
             url: '/fetch',
             success: function(response) {
-                $('tbody').html("");
+                 $('tbody').html("");
                 $.each(response.data, function(key, item) {
                     $('.tbody').append(
                         '<tr>\
